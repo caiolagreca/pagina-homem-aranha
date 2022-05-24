@@ -1,0 +1,83 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('/css/componentes/navigator.css');
+@import url('/css/componentes/pills.css');
+@import url('/css/componentes/link-botao.css');
+@import url('/css/componentes/galeria.css');
+
+.wrapper{
+    display: flex;
+    height: 100vw;
+    flex-flow: row nowrap;
+}
+
+.wrapper video{
+    position: fixed;
+    width: 100%;
+}
+
+.wrapper .coluna-esquerda{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.wrapper .conteudo-principal{
+    height: 100%;
+    width: 100%;
+    padding-left: 130px;
+    position: relative;
+}
+
+.wrapper .conteudo-principal__superior{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapper .conteudo-principal__inferior{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.wrapper .conteudo-principal .logo img{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.wrapper .conteudo-principal__superior .descricao{
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrapper .conteudo-principal__superior .descricao .descricao__texto p{
+    color: white;
+    line-height: 170%;
+}
+
+.wrapper .conteudo-principal__superior .descricao .pills{
+    margin-bottom: 20px;
+}
+
+.wrapper .conteudo-principal .links {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.wrapper .conteudo-principal .links ul{
+    display: flex;
+}
+

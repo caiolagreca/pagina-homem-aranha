@@ -1,0 +1,21 @@
+.galeria{
+    padding: 20px;
+    padding-left: 0;
+}
+
+.galeria ul{
+    display: flex;
+}
+
+.galeria ul li{
+    margin-left: 25px;
+}
+
+.galeria ul li:first-child{
+    margin-left: 0px;
+}
+
+.galeria ul li a img{
+    border: solid 6px white;
+    border-radius: 15px;
+}
